@@ -266,7 +266,7 @@ const data = {
     },
 
     { _id: '23',
-      name: "Channel slim-fit adies gown",
+      name: "Channel slim-fit ladies gown",
       category: "Ladies wears",
       image: '/images/d23.jpg',
       brand: 'Channel',
