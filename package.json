@@ -1,0 +1,27 @@
+{
+  "name": "my-market-place",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.12.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --watch  backend backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EssienNsikak/my-market-place-app-2.git"
+  },
+  "author": "Essien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EssienNsikak/my-market-place-app-2/issues"
+  },
+  "homepage": "https://github.com/EssienNsikak/my-market-place-app-2#readme"
+}
