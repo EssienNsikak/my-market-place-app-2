@@ -1,9 +1,15 @@
 const express = require ('express');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 const userRouter = require ('./routers/userRouter.js');
 const productRouter = require ('./routers/productRouter.js');
 
+dotenv.config();
+
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/my-market-place-app-2', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
