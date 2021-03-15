@@ -20,8 +20,7 @@ const data = {
 
   products: [
     {
-      _id: '1',
-      name: 'Slim Shirt',
+      name: 'Varsace Slim Shirt',
       category: "Shirts",
       image: '/images/d1.jpg',
       brand: 'Varsace',
@@ -32,8 +31,8 @@ const data = {
       description: 'Original Varsace Slim-fit shirt'
     },
 
-    { _id: '2',
-      name: 'Slim Shirt',
+    { 
+      name: 'Prada Slim Shirt',
       category: "Shirts",
       image: '/images/d2.jpg',
       brand: 'Prada',
@@ -44,8 +43,8 @@ const data = {
       description: 'Original Prada Slim-fit shirt'
     },
 
-    { _id: '3',
-      name: 'Slim Fit T-Shirt',
+    { 
+      name: 'Forest Slim Fit T-Shirt',
       category: "Polo T-Shirts",
       image: '/images/d3.jpg',
       brand: 'Forest',
@@ -56,8 +55,8 @@ const data = {
       description: 'Original Forest Slim-fit T-shirt'
     },
 
-    { _id: '4',
-      name: 'Polo T-Shirt',
+    { 
+      name: 'BYC T-Shirt',
       category: "Polo T-Shirts",
       image: '/images/d4.jpg',
       brand: 'BYC',
@@ -68,8 +67,8 @@ const data = {
       description: 'Original BYC branded Slim-fit T-shirt'
     },
   
-    { _id: '5',
-      name: 'Polo T-Shirt',
+    { 
+      name: 'Zecca T-Shirt',
       category:"Polo T-Shirts",
       image: '/images/d5.jpg',
       brand: 'Zecca',
@@ -80,7 +79,7 @@ const data = {
       description: 'Original T-shirt from Zecca Itallian finest wears producers'
     },
 
-    { _id: '6',
+    { 
       name: 'Polo T-Shirt',
       category: "Polo T-Shirts",
       image: '/images/d6.jpg',
@@ -92,7 +91,7 @@ const data = {
       description: 'Original Frank Vick Slim-fit T-shirt'
     },
 
-    { _id: '7',
+    { 
       name: 'Face Cap',
       category: "Caps",
       image: '/images/d7.jpg',
@@ -104,7 +103,7 @@ const data = {
       description: 'Original Tommy Hilfiger branded face cap'
     },
 
-    { _id: '8',
+    { 
       name: 'Trousers',
       category: "Trousers",
       image: '/images/d8.jpg',
@@ -116,8 +115,8 @@ const data = {
       description: 'Original quality slim-fit trouser from TM Lewin'
     },
 
-    { _id: '9',
-      name: 'Slim Trousers',
+    { 
+      name: 'Cucci Slim Trousers',
       category: "Trousers",
       image: '/images/d9.jpg',
       brand: 'Cucci',
@@ -128,7 +127,7 @@ const data = {
       description: 'Original quality slim-fit trouser from Cucci'
     },
 
-    { _id: '10',
+    { 
       name: 'Slim Trousers',
       category: "Trousers",
       image: '/images/d10.jpg',
@@ -140,8 +139,8 @@ const data = {
       description: 'Original quality slim-fit trouser from Bosch'
     },
 
-    { _id: '11',
-      name: 'Sneakers',
+    { 
+      name: "Nike Men's Sneakers",
       category: "Shoes & Sneakers",
       image: '/images/d11.jpg',
       brand: 'Nike',
@@ -152,8 +151,8 @@ const data = {
       description: 'Original Sneakers from Nike'
     },
 
-    { _id: '12',
-      name: 'Leather Shoes',
+    { 
+      name: 'Leather Mule',
       category: "Shoes & Sneakers",
       image: '/images/d12.jpg',
       brand: 'Cucci',
@@ -164,7 +163,7 @@ const data = {
       description: 'Original Itallian leather footwear made by Cucci'
     },
 
-    { _id: '13',
+    { 
       name: 'Sneakers',
       category: "Shoes & Sneakers",
       image: '/images/d13.jpg',
@@ -176,8 +175,8 @@ const data = {
       description: 'Original Qaulity Sneakers, one of Addidas finest designs'
     },
 
-    { _id: '14',
-      name: "Men's Suit",
+    { 
+      name: "Veragamo Men's Suit",
       category: "Suits",
       image: '/images/d14.jpg',
       brand: 'Veragamo',
@@ -188,8 +187,8 @@ const data = {
       description: 'Veragamo original stylish and quality men suit'
     },
 
-    { _id: '15',
-      name: "Men's Suit",
+    { 
+      name: "Men's Blazzers Suit",
       category: "Suits",
       image: '/images/d15.jpg',
       brand: 'Gorgio Armani',
@@ -200,7 +199,7 @@ const data = {
       description: 'Original stylish and quality men suit, made by Black Men'
     },
 
-    { _id: '16',
+    { 
       name: "Men's Suit",
       category: "Suits",
       image: '/images/d16.jpg',
@@ -212,8 +211,8 @@ const data = {
       description: 'Lorenzo original stylish and quality men suit'
     },
 
-    { _id: '17',
-      name: "Men's Suit",
+    { 
+      name: "Men's Designers Suit",
       category: "Suits",
       image: '/images/d17.jpg',
       brand: 'TM Lewin',
@@ -224,7 +223,7 @@ const data = {
       description: 'Top quality stylish men suit carefully crafted and well design bt TM Lewin'
     },
     
-    { _id: '18',
+    { 
       name: "Men's Pants",
       category: "Pants & Boxers",
       image: '/images/d18.jpg',
@@ -236,7 +235,7 @@ const data = {
       description: 'Original Polo branded pants'
     },
 
-    { _id: '19',
+    { 
       name: "Men's Boxers",
       category: "Pants & Boxers",
       image: '/images/d19.jpg',
@@ -248,8 +247,8 @@ const data = {
       description: 'Original Polo branded boxers'
     },
 
-    { _id: '20',
-      name: "Men's Pant",
+    { 
+      name: "Men's Designers Pant",
       category: "Pants & Boxers",
       image: '/images/d20.jpg',
       brand: 'Polo',
@@ -260,7 +259,7 @@ const data = {
       description: 'Original Polo branded pants'
     },
 
-    { _id: '21',
+    { 
       name: "Nexus split unit Air conditioner",
       category: "Electronics",
       image: '/images/d21.jpg',
@@ -272,7 +271,7 @@ const data = {
       description: 'Original super cool Nexus air conditioner'
     },
 
-    { _id: '22',
+    { 
       name: "Ladies bump-shot & t-shirt",
       category: "Polo T-Shirts",
       image: '/images/d22.jpg',
@@ -284,7 +283,7 @@ const data = {
       description: 'Designers stylish Bump-shot with quality cotton polo t-shirt for ladies'
     },
 
-    { _id: '23',
+    { 
       name: "Channel slim-fit ladies gown",
       category: "Ladies wears",
       image: '/images/d23.jpg',
@@ -296,7 +295,7 @@ const data = {
       description: 'Channel designers slim-fit ladies gown | color: Ox blood'
     },
 
-    { _id: '24',
+    { 
       name: "Cway water dispenser",
       category: "Electronics",
       image: '/images/d24.jpg',
@@ -308,7 +307,7 @@ const data = {
       description: 'Cway super quality water dispenser made in the Uk'
     },
 
-    { _id: '25',
+    { 
       name: "Slim-fit Shirt",
       category: "Shirt",
       image: '/images/d25.jpg',
@@ -320,7 +319,7 @@ const data = {
       description: 'Well design quality slim-fit TM Lewin shirt'
     },
 
-    { _id: '26',
+    { 
       name: "Slim-fit polo t-shirt",
       category: "t-shirt",
       image: '/images/d26.jpg',
@@ -332,7 +331,7 @@ const data = {
       description: 'Polo super quality desingers t-shirt | color: white'
     },
 
-    { _id: '27',
+    { 
       name: "Center Rug",
       category: "Carpet",
       image: '/images/d27.jpg',
@@ -344,7 +343,7 @@ const data = {
       description: 'Channel specially designed center rug for luxury lovers'
     },
 
-    { _id: '28',
+    { 
       name: "Slim-fit Ladies Gown",
       category: "Ladies wears",
       image: '/images/d28.jpg',
@@ -356,7 +355,7 @@ const data = {
       description: 'Stylishly design ladies gown by Channel | color: black'
     },
 
-    { _id: '29',
+    { 
       name: "Groceries",
       category: "Groceries",
       image: '/images/d29.jpg',
@@ -368,7 +367,7 @@ const data = {
       description: 'Fresh and Healthy Groceries from McDonalds'
     },
 
-    { _id: '30',
+    { 
       name: "LG flat screen Oled smart Television",
       category: "Electronics",
       image: '/images/d30.jpg',
@@ -380,7 +379,7 @@ const data = {
       description: 'Super quality LG Oled smart screen Television set'
     },
 
-    { _id: '31',
+    { 
       name: "Men's Sneaker",
       category: "Foot wears",
       image: '/images/d31.jpg',
@@ -392,7 +391,7 @@ const data = {
       description: 'Nike super designers sneakers for men'
     },
 
-    { _id: '32',
+    { 
       name: "Vegetables",
       category: "Fruits & Vegetables",
       image: '/images/d32.jpg',
@@ -404,7 +403,7 @@ const data = {
       description: 'Fresh and healthy vegetables from McDonalds'
     },
 
-    { _id: '33',
+    { 
       name: "Royal Italian Sofa",
       category: "Household Furnitures",
       image: '/images/d33.jpg',
@@ -416,7 +415,7 @@ const data = {
       description: 'Quality, stylish and durable Italian Royal Sofa | color: Grey'
     },
 
-    { _id: '34',
+    { 
       name: "Thermocool Deep Freezer",
       category: "Electronics",
       image: '/images/d34.jpg',
@@ -428,7 +427,7 @@ const data = {
       description: 'Quality super cool thermocool deep freezer | color: white'
     },
 
-    { _id: '35',
+    { 
       name: "Xiaomi Mobile Phone",
       category: "Electronics",
       image: '/images/d35.jpg',
@@ -440,7 +439,7 @@ const data = {
       description: 'Xiaomi quality andriod mobile phone | color: Gold'
     },
 
-    { _id: '36',
+    {
       name: "Chivita Cocktail",
       category: "Fruit Drinks & Beverages",
       image: '/images/d36.jpg',
@@ -452,7 +451,7 @@ const data = {
       description: 'Highly nutritious Chivita cocktail'
     },
 
-    { _id: '37',
+    {
       name: "Ladies Heel Cover Shoes",
       category: "Foot wears",
       image: '/images/d37.jpg',
@@ -464,7 +463,7 @@ const data = {
       description: 'Varsace designers heel for classic ladies | color: red'
     },
 
-    { _id: '38',
+    {
       name: "iphone 11plus",
       category: "Electronics",
       image: '/images/d38.jpg',
@@ -476,7 +475,7 @@ const data = {
       description: 'Apple iphone 11plus | color: silver'
     },
 
-    { _id: '39',
+    {
       name: "Agogs Electric Bicycle",
       category: "Vehicles",
       image: '/images/d39.jpg',
@@ -488,7 +487,7 @@ const data = {
       description: 'Super quality Agogs electric sports bicycle | color: white'
     },
 
-    { _id: '40',
+    {
       name: "Ladies Bum-shot",
       category: "Ladies wears",
       image: '/images/d40.jpg',
@@ -500,7 +499,7 @@ const data = {
       description: 'Varsace quality designers bum shot for hot ladies | color: sky-blue'
     },
 
-    { _id: '41',
+    {
       name: "Ladies Bikini",
       category: "Ladies wears",
       image: '/images/d41.jpg',
@@ -512,8 +511,8 @@ const data = {
       description: 'Varsace quality designers bikini for hot and classic ladies | color: blue'
     },
 
-    { _id: '42',
-      name: "Ladies Bikini",
+    {
+      name: "Hot Ladies Bikini",
       category: "Ladies wears",
       image: '/images/d42.jpg',
       brand: 'Varsace',
@@ -524,7 +523,7 @@ const data = {
       description: 'Varsace quality designers bikini for hot and classic ladies'
     },
 
-    { _id: '43',
+    {
       name: "300g 2 Tone Bone Straight Malaysian Human Hair Weaving",
       category: "Ladies wears",
       image: '/images/d43.jpg',
@@ -536,7 +535,7 @@ const data = {
       description: '300g 2 Tone Bone Straight Malaysian Human Hair Weaving classic ladies | color: grey & black combination'
     },
 
-    { _id: '44',
+    {
       name: "Super Double Raw Donor Bone Straight Closure Wig",
       category: "Ladies wears",
       image: '/images/d44.jpg',
@@ -548,7 +547,7 @@ const data = {
       description: 'Super Double Raw Donor Bone Straight Closure Wig for hot & classic ladies | color: black'
     },
 
-    { _id: '45',
+    {
       name: "MacBook Pro",
       category: "Electronics",
       image: '/images/d45.jpg',
@@ -560,7 +559,7 @@ const data = {
       description: 'Super fast slim body Macbook pro | color: grey'
     },
 
-    { _id: '46',
+    {
       name: "Super Double Raw Quality Brazilian Wig",
       category: "Ladies wears",
       image: '/images/d46.jpg',
@@ -572,8 +571,8 @@ const data = {
       description: 'Super Double Raw Quality Brazilian Wig for hot & classic ladies | color: black'
     },
 
-    { _id: '47',
-      name: "Super Double Raw Quality Brazilian Wig",
+    {
+      name: "Super Double Raw Quality Brazilian Weavon",
       category: "Ladies wears",
       image: '/images/d47.jpg',
       brand: 'Black Ebony',
