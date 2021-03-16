@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const userRouter = require ('./routers/userRouter.js');
 const productRouter = require ('./routers/productRouter.js');
+const orderRouter = require ('./routers/orderRouter.js');
 
 dotenv.config();
 
@@ -16,11 +17,12 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/my-market-place
   useCreateIndex: true
 })
 
-app.use('/api/v1/users', userRouter)
-app.use('/api/v1/products', productRouter)
+app.use('/api/v1/users', userRouter);
+app.use('/api/v1/products', productRouter);
+app.use('/api/v1/orders', orderRouter);
 
 app.get('/', (req, res) => {
-  res.send('Server is up and running')
+  res.send('Server is up and running');
 });
 
 app.use(( err, req, res, next ) => {
