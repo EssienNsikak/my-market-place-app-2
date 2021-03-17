@@ -21,6 +21,9 @@ app.use('/api/v1/users', userRouter);
 app.use('/api/v1/products', productRouter);
 app.use('/api/v1/orders', orderRouter);
 
+app.get('/api/v1/config/paypal', (req, res) => {
+  res.send(process.env.PAYPAL_CLIENT_ID || 'sandbox');
+})
 app.get('/', (req, res) => {
   res.send('Server is up and running');
 });
@@ -29,7 +32,7 @@ app.use(( err, req, res, next ) => {
   res.status(500).send({ message: err.message });
 });
 
-const port = process.env.PORT || 5001;
+const port = (process.env.PORT || 5001);
 app.listen(port, () => {
   console.log(`Server is running on PORT: ${port}`);
 });
